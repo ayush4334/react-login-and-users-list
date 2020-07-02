@@ -1,0 +1,122 @@
+.show{
+  color: #020520;
+}
+
+/* body {
+  background-image: url(/images/img.jpg);
+} */
+
+.App {
+  height: 100vh;
+  display: flex;
+  color: white;
+}
+
+.App__Aside {
+  width: 50%;
+  background-color: #66DAC7;
+}
+
+.App__Form {
+  width: 50%;
+  background-color: #2E4158;
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.FormCenter {
+  margin: auto;
+}
+
+.FormField {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: black;
+}
+
+.FormField__Input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: black;
+  outline: none;
+  border-bottom: 1px solid #02022b;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: #02022b;
+}
+
+.FormField__Button {
+  background-color: teal;
+  color: #020520;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  text-transform: capitalize;
+}
+
+.FormField__Button_logout {
+  background-color: teal;
+  color: #020520;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  text-transform: capitalize;
+}
+
+.logout_btn{
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+  display: inline block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error-container{
+  width: 350px;
+  height: 100px;
+}
+
+.person {
+  background: #020520;
+  width: 25rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  transition: all 0.3 linear;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+
+.person h4 {
+  text-transform: capitalize;
+  margin: 0.5rem 0;
+  letter-spacing: 0.15rem;
+  color: teal;
+}
+.person:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.person_list{
+  text-align: center;
+}
+
+/* .background {
+  background-image: url("/images/img.jpg");
+} */
